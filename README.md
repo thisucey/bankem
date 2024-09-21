@@ -1,80 +1,28 @@
-<button>Thêm vào Giỏ</button>
-                </div>
-                <div class="product">
-                    <img src="blueberry.jpg" alt="Kem Việt Quất">
-                    <h3>Kem Việt Quất</h3>
-                    <p>Giá: 35,000 VND</p>
-                    <button>Thêm vào Giỏ</button>
-                </div>
-                <div class="product">
-                    <img src="raspberry.jpg" alt="Kem Mâm Xôi">
-                    <h3>Kem Mâm Xôi</h3>
-                    <p>Giá: 32,000 VND</p>
-                    <button>Thêm vào Giỏ</button>
-                </div>
-                <div class="product">
-                    <img src="toffee.jpg" alt="Kem Kẹo Bơ">
-                    <h3>Kem Kẹo Bơ</h3>
-                    <p>Giá: 38,000 VND</p>
-                    <button>Thêm vào Giỏ</button>
-                </div>
-                <div class="product">
-                    <img src="peach.jpg" alt="Kem Đào">
-                    <h3>Kem Đào</h3>
-                    <p>Giá: 30,000 VND</p>
-                    <button>Thêm vào Giỏ</button>
-                </div>
-                <div class="product">
-                    <img src="cookies.jpg" alt="Kem Bánh Quy">
-                    <h3>Kem Bánh Quy</h3>
-                    <p>Giá: 33,000 VND</p>
-                    <button>Thêm vào Giỏ</button>
-                </div>
-                <div class="product">
-                    <img src="caramel.jpg" alt="Kem Caramel">
-                    <h3>Kem Caramel</h3>
-                    <p>Giá: 37,000 VND</p>
-                    <button>Thêm vào Giỏ</button>
-                </div>
-                <div class="product">
-                    <img src="passionfruit.jpg" alt="Kem Chanh Leo">
-                    <h3>Kem Chanh Leo</h3>
-                    <p>Giá: 34,000 VND</p>
-                    <button>Thêm vào Giỏ</button>
-                </div>
-                <div class="product">
-                    <img src="taro.jpg" alt="Kem Khoai Môn">
-                    <h3>Kem Khoai Môn</h3>
-                    <p>Giá: 36,000 VND</p>
-                    <button>Thêm vào Giỏ</button>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact">
-            <h2>Liên Hệ</h2>
-            <p>Địa chỉ: 31/8 Nguyễn Bĩnh Khiêm, Thành phố Vũng Tàu</p>
-            <p>Email: thonghoang12005@gmail.com</p>
-            <p>Số điện thoại: 0383-704-182</p>
-        </section>
-
-        <section id="cart">
-            <h2>Giỏ Hàng</h2>
-            <p>Hiện tại không có sản phẩm nào trong giỏ hàng của bạn.</p>
-        </section>
-
-        <footer>
-            <p>&copy; 2024 Cửa Hàng Kem Ngon. Tất cả quyền lợi được bảo lưu.</p>
-        </footer>
-    </div>
-
-    <script>
-        function showProducts(page) {
-            document.getElementById('page1').classList.add('hidden');
-            document.getElementById('page2').classList.add('hidden');
-
-            document.getElementById(page).classList.remove('hidden');
-        }
-    </script>
-</body>
+<html>
+    <head>
+    </head>
+    <body>
+        <table width="100%" border="1">
+            <tr>
+                <td height="150px" colspan="3" bgcolor="red" align="center">HEADER</td>
+            </tr>
+            <tr>
+                <td colspan="3">MENU</td>
+            </tr>
+            <tr height="200px">
+                <td width="40%" valign="top">
+                    <table width="100%" border="1">
+                        <tr> <td align="right">Trangchu</td> </tr>
+                        <tr> <td align="left">Thong tin san pham</td> </tr>
+                        <tr> <td align="center">Danh sach hang hoa</td> </tr>
+                        <tr> <td align="left">Lien He</td> </tr>
+                    </table>
+                </td>
+                <td width="60%" align="center">CONTENT</td>
+            </tr>
+            <tr>
+                <td height="200px" colspan="3"  align="center"> FOOTER</td>
+            </tr>
+        </table>
+    </body>
 </html>
